@@ -915,3 +915,8 @@ config/database.yml
 *.zip
 
 # ===== END =====
+
+# Agentic workflow overrides
+!package-lock.json
+!lib/
+!lib/**/*
